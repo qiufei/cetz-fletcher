@@ -13,7 +13,7 @@
 
 On this page
 
-## [context](https://cetz-package.github.io/docs/advanced/custom-types\#context) 
+## [context]
 
 A [dictionary](https://typst.app/docs/reference/foundations/dictionary) that holds the internal state of the canvas such as the element dictionary, the current transformation matrix, group and canvas unit length.
 The following fields are considered stable:
@@ -23,7 +23,7 @@ The following fields are considered stable:
 - background (none,color,gradient,tiling): The canvas' background
 - debug (bool): True if the canvas' debug flag is set
 
-## [element](https://cetz-package.github.io/docs/advanced/custom-types\#element) 
+## [element]
 
 A function that, when called with a [context](https://cetz-package.github.io/docs/advanced/custom-types#context), returns some data that effects the canvas. Can also be an [array](https://typst.app/docs/reference/foundations/array) of this type.
 
